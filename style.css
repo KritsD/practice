@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
 @media screen {
     p {
         font-size: 1.1rem;
@@ -6,14 +8,14 @@
         padding-left: 0.4rem;
         display: flex;
         margin: auto;
-        color: blue;
+        color: rgb(41, 41, 41);
     }
 
     a {
         font-size: 3rem;
-        text-transform: uppercase;
         font-family: 'Work Sans', sans-serif;
         text-decoration: none;
+        color: rgb(41, 41, 41);
     }
 
     button {
@@ -30,26 +32,92 @@
     }
 }
 
+@media (max-width: 374px) {
+    .a, .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        display:none;
+    }
+
+    button:hover .author,
+    button .failure,
+    button .embracing,    
+    button .context,
+    button .delivery,
+    button .discussion,
+    button .boundaries,
+    button .purpose,
+    button .research,
+    button .knowing,
+    button .attention,
+    button .intentionality,
+    button .pespectives,
+    button .necessity,
+    button .introspection,
+    button .inclusivity,
+    button .silliness,
+    button .refinement,
+    button .narration,
+    button .ambiguity,
+    button .provision,
+    button .responding,
+    button .laughing,
+    button .building,
+    button .reinventing,
+    button .evolution,
+    button .freedom,
+    button .intro {
+        display: none;
+    }
+
+}
+
+/*failure*/
 @media (min-width:375px) {
 
     .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
         display:none;
     }
 
+    button:hover .author,
     button .embracing,    
-    button .failure,
-    button:hover .author {
+    button .context,
+    button .delivery,
+    button .discussion,
+    button .boundaries,
+    button .purpose,
+    button .research,
+    button .knowing,
+    button .attention,
+    button .intentionality,
+    button .pespectives,
+    button .necessity,
+    button .introspection,
+    button .inclusivity,
+    button .silliness,
+    button .refinement,
+    button .narration,
+    button .ambiguity,
+    button .provision,
+    button .responding,
+    button .laughing,
+    button .building,
+    button .reinventing,
+    button .evolution,
+    button .freedom,
+    button .intro {
         display: none;
     }
 
-    button:hover .failure {
+    button .failure {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 6rem;
+        line-height: 0rem;
         display: inline;
-        color: rgb(225, 0, 255);
+        color: rgb(38, 216, 18);
         transition-duration: 1s;
     }
 }
 
-/*failure*/
+/*embracing*/
 @media (min-width:400px) {
 
     .a, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -61,21 +129,47 @@
         display: flex;
     }
 
-    button .failure, 
-    button:hover .failure, 
-    button .embracing,
-    button:hover .author {
+    button:hover .author,
+    button .failure,    
+    button .context,
+    button .delivery,
+    button .discussion,
+    button .boundaries,
+    button .purpose,
+    button .research,
+    button .knowing,
+    button .attention,
+    button .intentionality,
+    button .pespectives,
+    button .necessity,
+    button .introspection,
+    button .inclusivity,
+    button .silliness,
+    button .refinement,
+    button .narration,
+    button .ambiguity,
+    button .provision,
+    button .responding,
+    button .laughing,
+    button .building,
+    button .reinventing,
+    button .evolution,
+    button .freedom,
+    button .intro {
         display: none;
-        }
-    
-    button:hover .embracing {
-        display: inline;
-        color: rgb(225, 0, 255);
-        transition-duration: 1s;
-        }
     }
+    
+    button .embracing {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 6rem;
+        line-height: 0rem;
+        display: inline;
+        color: rgb(0, 207, 124);
+        transition-duration: 1s;
+    }
+}
 
-    /*embracing*/
+    /*context*/
     @media (min-width:425px) {
 
         .a, .b , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -87,21 +181,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .context  {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 6rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(0, 200, 207);
             transition-duration: 1s;
             }
     }
 
-    /*context*/
+    /*delivery*/
     @media (min-width:450px) {
 
         .a, .b , .c, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -114,20 +234,45 @@
         }
     
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .delivery {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 6rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(0, 62, 207);
             transition-duration: 1s;
             }
     }
 
-    /*delivery*/
+    /*discussion*/
     @media (min-width:475px) {
 
         .a, .b , .c, .d, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -139,21 +284,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .discussion {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 6rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(103, 25, 248);
             transition-duration: 1s;
             }
     }
 
-    /*discussion*/
+    /*boundaries*/
     @media (min-width:500px) {
 
         .a, .b , .c, .d, .e, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -165,21 +336,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .boundaries {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 6rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(218, 25, 248);
             transition-duration: 1s;
             }
     }
 
-    /*boundaries*/
+    /*purpose*/
     @media (min-width:525px) {
 
         .a, .b , .c, .d, .e, .f, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -191,21 +388,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
-            }
+        }
         
-        button:hover .embracing {
+        button .purpose {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 8rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(248, 25, 148);
             transition-duration: 1s;
             }
     }
 
-    /*purpose*/
+     /*research*/
     @media (min-width:550px) {
 
         .a, .b , .c, .d, .e, .f, .g, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -217,21 +440,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .research {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 8rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(248, 25, 44);
             transition-duration: 1s;
             }
     }
 
-    /*research*/
+   /*knowing*/
     @media (min-width:575px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -243,21 +492,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .knowing {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 8rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(255, 77, 0);
             transition-duration: 1s;
             }
     }
 
-    /*knowing*/
+    /*attention*/
     @media (min-width:600px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -269,21 +544,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .attention {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 9rem;
+            line-height: 3rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(255, 183, 0);
             transition-duration: 1s;
             }
     }
 
-    /*attention*/
+    /*intentionality*/
     @media (min-width:625px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -295,21 +596,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .intentionality {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 8rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(172, 235, 10);
             transition-duration: 1s;
             }
     }
 
-    /*intentionality*/
+     /*pespectives*/
     @media (min-width:650px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -321,48 +648,48 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
-            }
+        }
         
-        button:hover .embracing {
+        button .pespectives {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 8rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(55, 235, 10);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*pespectives*/
+    /*introspection*/
     @media (min-width:675px) {
-
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
-            display:none;
-        }
-    
-        .m {
-            padding: 0;
-            display: flex;
-        }
-    
-        button .failure, 
-        button:hover .failure, 
-        button .embracing,
-        button:hover .author {
-            display: none;
-            }
-        
-        button:hover .embracing {
-            display: inline;
-            color: rgb(225, 0, 255);
-            transition-duration: 1s;
-            }
-    }
-
-    /*necessity*/
-    @media (min-width:700px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
@@ -373,21 +700,99 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .introspection {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 9rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(10, 235, 96);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*introspection*/
+   /*necessity*/
+    @media (min-width:700px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .m {
+            padding: 0;
+            display: flex;
+        }
+    
+        button:hover .author,
+        button .failure, 
+        button .embracing,
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
+            display: none;
+            }
+        
+        button .necessity {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 11rem;
+            line-height: 0rem;
+            display: inline;
+            color: rgb(10, 235, 231);
+            transition-duration: 1s;
+        }
+    }
+
+    /*inclusivity*/
     @media (min-width:725px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -399,48 +804,48 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .inclusivity {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 11rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(10, 141, 235);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*inclusivity*/
+    /*refinement*/
     @media (min-width:750px) {
-
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
-            display:none;
-        }
-    
-        .p {
-            padding: 0;
-            display: flex;
-        }
-    
-        button .failure, 
-        button:hover .failure, 
-        button .embracing,
-        button:hover .author {
-            display: none;
-            }
-        
-        button:hover .embracing {
-            display: inline;
-            color: rgb(225, 0, 255);
-            transition-duration: 1s;
-            }
-    }
-
-    /*silliness*/
-    @media (min-width:775px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
@@ -451,21 +856,99 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .refinement {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 11rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(18, 10, 235);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*refinement*/
+    /*silliness*/
+    @media (min-width:775px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .p {
+            padding: 0;
+            display: flex;
+        }
+    
+        button:hover .author,
+        button .failure, 
+        button .embracing,
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
+            display: none;
+            }
+        
+        button .silliness {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
+            display: inline;
+            color: rgb(119, 10, 235);
+            transition-duration: 1s;
+        }
+    }
+
+/*narration*/
     @media (min-width:800px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .s, .t, .u, .v, .w, .x, .y, .z {
@@ -477,21 +960,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .narration {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(209, 10, 235);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*narration*/
+    /*attention*/
     @media (min-width:825px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .t, .u, .v, .w, .x, .y, .z {
@@ -503,21 +1012,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .attention {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(235, 10, 186);
             transition-duration: 1s;
-            }
+        }
     }
 
-    /*attention*/
+    /*ambiguity*/
     @media (min-width:850px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
@@ -529,21 +1064,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .ambiguity {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(235, 10, 89);
             transition-duration: 1s;
             }
     }
 
-    /*ambiguity*/
+    /*provision*/
     @media (min-width:875px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
@@ -555,21 +1116,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .provision {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(235, 10, 10);
             transition-duration: 1s;
             }
     }
 
-    /*provision*/
+    /*responding*/
     @media (min-width:900px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .v, .w, .x, .y, .z {
@@ -581,21 +1168,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .responding {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 14rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(235, 66, 10);
             transition-duration: 1s;
             }
     }
 
-    /*responding*/
+    /*laughing*/
     @media (min-width:925px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .w, .x, .y, .z {
@@ -607,21 +1220,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .laughing {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 15rem;
+            line-height: 0rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(235, 164, 10);
             transition-duration: 1s;
             }
     }
 
-    /*laughing*/
+    /*building a repository*/
     @media (min-width:950px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .x, .y, .z {
@@ -633,21 +1272,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .building {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 11rem;
+            line-height: 2rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(171, 235, 10);
             transition-duration: 1s;
             }
     }
 
-    /*building a repository*/
+    /*reinventing*/
     @media (min-width:975px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .y, .z {
@@ -659,21 +1324,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .evolution,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .reinventing {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 13rem;
+            line-height: 2rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(21, 235, 10);
             transition-duration: 1s;
             }
     }
 
-    /*reinventing*/
+    /*evolution*/
     @media (min-width:1000px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .z {
@@ -685,21 +1376,47 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .freedom,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .evolution {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 17rem;
+            line-height: 2rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(10, 235, 186);
             transition-duration: 1s;
             }
     }
     
-    /*evolution*/
+    /*freedom*/
     @media (min-width:1025px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y {
@@ -711,18 +1428,122 @@
             display: flex;
         }
     
+        button:hover .author,
         button .failure, 
-        button:hover .failure, 
         button .embracing,
-        button:hover .author {
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .attention,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .intro {
             display: none;
             }
         
-        button:hover .embracing {
+        button .freedom {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 22rem;
+            line-height: 2rem;
             display: inline;
-            color: rgb(225, 0, 255);
+            color: rgb(10, 96, 235);
             transition-duration: 1s;
             }
     }
 
+    @media (min-width:1050px) {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
 
+        button:hover .author,
+        button .failure, 
+        button .embracing,
+        button .context,
+        button .delivery,
+        button .discussion,
+        button .boundaries,
+        button .purpose,
+        button .research,
+        button .knowing,
+        button .intentionality,
+        button .pespectives,
+        button .necessity,
+        button .introspection,
+        button .inclusivity,
+        button .silliness,
+        button .refinement,
+        button .narration,
+        button .ambiguity,
+        button .provision,
+        button .responding,
+        button .laughing,
+        button .building,
+        button .reinventing,
+        button .evolution,
+        button .freedom,
+        button .attention,
+        button .author
+        {
+            display: none;
+            }
+
+        button .intro {
+            font-family: 'Pinyon Script',cursive;
+            font-size: 3rem;
+            line-height: 0.5rem;
+            display: inline;
+            color: rgb(10, 96, 235);
+            transition-duration: 1s;
+            padding: 3rem;
+            margin: auto;
+
+        }
+    }
+
+
+
+    /* hidden */
+    /* button:hover .author,
+        button .failure, button:hover .failure,
+        button .embracing, button:hover .embracing, 
+        button .context,    
+        button .delivery, button:hover .delivery,
+        button .discussion, button:hover .discussion,
+        button .boundaries, button:hover .boundaries,
+        button .purpose, button:hover .purpose,
+        button .research, button:hover .research,
+        button .knowing, button:hover .knowing,
+        button .attention, button:hover .attention,
+        button .intentionality, button:hover .intentionality,
+        button .pespectives, button:hover .pespectives,
+        button .necessity, button:hover .necessity,
+        button .introspection, button:hover .introspection,
+        button .inclusivity, button:hover .inclusivity,
+        button .silliness, button:hover .silliness,
+        button .refinement, button:hover .refinement,
+        button .narration, button:hover .narration,
+        button .ambiguity, button:hover .ambiguity,
+        button .provision, button:hover .provision,
+        button .responding, button:hover .responding,
+        button .laughing, button:hover .laughing,
+        button .building, button:hover .building,
+        button .reinventing, button:hover .reinventing,
+        button .evolution, button:hover .evolution */
