@@ -1,0 +1,42 @@
+@media screen {
+
+    html {
+        padding-top: 1.3rem;
+    }
+
+    a {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: 'Work Sans', sans-serif;
+        text-decoration: none;
+    }
+
+    button {
+    margin: auto;
+    display:flex;
+    margin-top:50vh;
+    position: sticky;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: black;
+    padding: 0;
+    border: none;
+    background: none;
+    }
+}
+
+@media (min-width:375px) {
+    
+button .learning {
+    display: none;
+    }
+
+    button:hover .author {
+    display:none;
+    }
+
+    button:hover .learning {
+    display: inline;
+    color: rgb(225, 0, 255);
+    }
+}
