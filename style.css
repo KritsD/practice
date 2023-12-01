@@ -1,7 +1,12 @@
 @media screen {
-
-    html {
-        padding-top: 1.3rem;
+    p {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-family: 'Work Sans', sans-serif;
+        padding-left: 0.4rem;
+        display: flex;
+        margin: auto;
+        color: blue;
     }
 
     a {
@@ -14,7 +19,7 @@
     button {
     margin: auto;
     display:flex;
-    margin-top:50vh;
+    margin-top:45vh;
     position: sticky;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -26,17 +31,698 @@
 }
 
 @media (min-width:375px) {
-    
-button .learning {
-    display: none;
+
+    .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        display:none;
     }
 
+    button .embracing,    
+    button .failure,
     button:hover .author {
-    display:none;
+        display: none;
     }
 
-    button:hover .learning {
-    display: inline;
-    color: rgb(225, 0, 255);
+    button:hover .failure {
+        display: inline;
+        color: rgb(225, 0, 255);
+        transition-duration: 1s;
     }
 }
+
+/*failure*/
+@media (min-width:400px) {
+
+    .a, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        display:none;
+    }
+
+    .b {
+        padding: 0;
+        display: flex;
+    }
+
+    button .failure, 
+    button:hover .failure, 
+    button .embracing,
+    button:hover .author {
+        display: none;
+        }
+    
+    button:hover .embracing {
+        display: inline;
+        color: rgb(225, 0, 255);
+        transition-duration: 1s;
+        }
+    }
+
+    /*embracing*/
+    @media (min-width:425px) {
+
+        .a, .b , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .c {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*context*/
+    @media (min-width:450px) {
+
+        .a, .b , .c, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .d {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*delivery*/
+    @media (min-width:475px) {
+
+        .a, .b , .c, .d, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .e {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*discussion*/
+    @media (min-width:500px) {
+
+        .a, .b , .c, .d, .e, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .f {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*boundaries*/
+    @media (min-width:525px) {
+
+        .a, .b , .c, .d, .e, .f, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .g {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*purpose*/
+    @media (min-width:550px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .h {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*research*/
+    @media (min-width:575px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .i {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*knowing*/
+    @media (min-width:600px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .j {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*attention*/
+    @media (min-width:625px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .k {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*intentionality*/
+    @media (min-width:650px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .l {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*pespectives*/
+    @media (min-width:675px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .m {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*necessity*/
+    @media (min-width:700px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .n {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*introspection*/
+    @media (min-width:725px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .o {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*inclusivity*/
+    @media (min-width:750px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .p {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*silliness*/
+    @media (min-width:775px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .q {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*refinement*/
+    @media (min-width:800px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .s, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .r {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*narration*/
+    @media (min-width:825px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .t, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .s {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*attention*/
+    @media (min-width:850px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .t {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*ambiguity*/
+    @media (min-width:875px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .t {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*provision*/
+    @media (min-width:900px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .v, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .u {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*responding*/
+    @media (min-width:925px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .w, .x, .y, .z {
+            display:none;
+        }
+    
+        .v {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*laughing*/
+    @media (min-width:950px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .x, .y, .z {
+            display:none;
+        }
+    
+        .w {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*building a repository*/
+    @media (min-width:975px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .y, .z {
+            display:none;
+        }
+    
+        .x {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+    /*reinventing*/
+    @media (min-width:1000px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .z {
+            display:none;
+        }
+    
+        .y {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+    
+    /*evolution*/
+    @media (min-width:1025px) {
+
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y {
+            display:none;
+        }
+    
+        .z {
+            padding: 0;
+            display: flex;
+        }
+    
+        button .failure, 
+        button:hover .failure, 
+        button .embracing,
+        button:hover .author {
+            display: none;
+            }
+        
+        button:hover .embracing {
+            display: inline;
+            color: rgb(225, 0, 255);
+            transition-duration: 1s;
+            }
+    }
+
+
