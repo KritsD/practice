@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/ril2vdl.css");
+@import url("https://use.typekit.net/ril2vdl.css");
 
 body {
     padding: 1rem;
@@ -22,33 +23,37 @@ p {
     right: 0;
     padding-left: 1%;
     padding-right: 1%;
+    background: white;
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "orpheuspro", serif;
     font-weight: 800;
     color: rgb(41, 41, 41);
-    padding-top: 20%;
+    padding-top: 7%;
     margin: auto;
     text-align: center;
 }
 
 h2 {
-    font-size: 1.1rem;
-    font-family: "orpheuspro", serif;
-    font-weight: 200;
-    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .author {
     margin: auto;
     font-style: italic;
+    font-family: "orpheuspro", serif;
+    font-weight: 800;
 }
 
 .para {
     padding-top: 2%;
     margin: auto;
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 a {
@@ -76,23 +81,23 @@ a {
 }
 
 em {
-    background-color: rgb(254, 241, 193);
+    background-color: rgb(246, 222, 136);
 }
 
 @media (min-width: 500px) {
     h2 {
-        max-width: 80%;
+        max-width: 75%;
     }
 }
 
 @media (min-width: 700px) {
     h2 {
-        max-width: 60%;
+        max-width: 55%;
     }
 }
 
 @media (min-width: 900px) {
     h2 {
-        max-width: 50%;
+        max-width: 40%;
     }
 }
