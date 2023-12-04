@@ -1,38 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');*/
+@import url("https://use.typekit.net/ril2vdl.css");
+@import url("https://use.typekit.net/ril2vdl.css");
 
 @media screen {
     p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         text-transform: uppercase;
-        font-family: 'Work Sans', sans-serif;
-        padding-left: 0.4rem;
+        font-family: "orpheuspro", serif;
+        font-weight: 800;
+        font-style: italic;
+        justify-content: center;
         display: flex;
         margin: auto;
         color: rgb(41, 41, 41);
     }
 
     a {
-        font-size: 3rem;
-        font-family: 'Work Sans', sans-serif;
+        font-size: 2rem;
+        font-family: "orpheuspro", serif;
+        font-weight: 400;
+        font-style: italic;
+        font-weight: 200;
+        font-style: normal;
         text-decoration: none;
         color: rgb(41, 41, 41);
     }
 
     button {
-    margin: auto;
-    display:flex;
-    margin-top:45vh;
-    position: sticky;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: black;
-    padding: 0;
-    border: none;
-    background: none;
-    }
+        margin: auto;
+        display:flex;
+        margin-top:45vh;
+        position: sticky;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color: black;
+        padding: 0;
+        border: none;
+        background: none;
+        }
+    
 }
 
-@media (max-width: 374px) {
+@media (max-width: 525px) {
+
     .a, .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
         display:none;
     }
@@ -70,10 +80,10 @@
 
 }
 
-/*failure*/
-@media (min-width:375px) {
+/*freedom*/
+@media (min-width:525px) {
 
-    .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+    .a, .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
         display:none;
     }
 
@@ -108,23 +118,18 @@
     }
 
     button .failure {
-        font-family: 'Pinyon Script', cursive;
-        font-size: 6rem;
-        line-height: 0rem;
         display: inline;
-        color: rgb(38, 216, 18);
-        transition-duration: 1s;
     }
 }
 
-/*embracing*/
-@media (min-width:400px) {
+/*evolution*/
+@media (min-width:575px) {
 
-    .a, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+    .b, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
         display:none;
     }
 
-    .b {
+    .a {
         padding: 0;
         display: flex;
     }
@@ -160,23 +165,18 @@
     }
     
     button .embracing {
-        font-family: 'Pinyon Script', cursive;
-        font-size: 6rem;
-        line-height: 0rem;
         display: inline;
-        color: rgb(0, 207, 124);
-        transition-duration: 1s;
     }
 }
 
-    /*context*/
-    @media (min-width:425px) {
+    /*reinventing*/
+    @media (min-width:600px) {
 
-        .a, .b , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .c , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .c {
+        .b {
             padding: 0;
             display: flex;
         }
@@ -212,23 +212,18 @@
             }
         
         button .context  {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 6rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(0, 200, 207);
-            transition-duration: 1s;
             }
     }
 
-    /*delivery*/
-    @media (min-width:450px) {
+    /*resourcefulness*/
+    @media (min-width:625px) {
 
-        .a, .b , .c, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .d {
+        .c {
             padding: 0;
             display: flex;
         }
@@ -263,23 +258,18 @@
             }
         
         button .delivery {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 6rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(0, 62, 207);
-            transition-duration: 1s;
             }
     }
 
-    /*discussion*/
-    @media (min-width:475px) {
+    /*laughter*/
+    @media (min-width:650px) {
 
-        .a, .b , .c, .d, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .e {
+        .d {
             padding: 0;
             display: flex;
         }
@@ -315,23 +305,18 @@
             }
         
         button .discussion {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 6rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(103, 25, 248);
-            transition-duration: 1s;
             }
     }
 
-    /*boundaries*/
-    @media (min-width:500px) {
+    /*response*/
+    @media (min-width:675px) {
 
-        .a, .b , .c, .d, .e, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .f {
+        .e {
             padding: 0;
             display: flex;
         }
@@ -364,26 +349,21 @@
         button .freedom,
         button .intro {
             display: none;
-            }
+        }
         
         button .boundaries {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 6rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(218, 25, 248);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*purpose*/
-    @media (min-width:525px) {
+    /*provision*/
+    @media (min-width:700px) {
 
-        .a, .b , .c, .d, .e, .f, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .g {
+        .f {
             padding: 0;
             display: flex;
         }
@@ -419,23 +399,18 @@
         }
         
         button .purpose {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 8rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(248, 25, 148);
-            transition-duration: 1s;
-            }
+        }
     }
 
-     /*research*/
-    @media (min-width:550px) {
+     /*ambiguity*/
+    @media (min-width:725px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .h {
+        .g {
             padding: 0;
             display: flex;
         }
@@ -471,23 +446,18 @@
             }
         
         button .research {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 8rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(248, 25, 44);
-            transition-duration: 1s;
-            }
+        }
     }
 
-   /*knowing*/
-    @media (min-width:575px) {
+   /*narration*/
+    @media (min-width:750px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .i {
+        .h {
             padding: 0;
             display: flex;
         }
@@ -523,23 +493,18 @@
             }
         
         button .knowing {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 8rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(255, 77, 0);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*attention*/
-    @media (min-width:600px) {
+    /*refinement*/
+    @media (min-width:775px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .j {
+        .i {
             padding: 0;
             display: flex;
         }
@@ -575,23 +540,18 @@
             }
         
         button .attention {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 9rem;
-            line-height: 3rem;
             display: inline;
-            color: rgb(255, 183, 0);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*intentionality*/
-    @media (min-width:625px) {
+    /*balance*/
+    @media (min-width:800px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .k, .l, .m, .n, .o, .j, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .k {
+        .p {
             padding: 0;
             display: flex;
         }
@@ -627,23 +587,18 @@
             }
         
         button .intentionality {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 8rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(172, 235, 10);
-            transition-duration: 1s;
-            }
+        }
     }
 
-     /*pespectives*/
-    @media (min-width:650px) {
+     /*inclusivity*/
+    @media (min-width:825px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .l {
+        .k {
             padding: 0;
             display: flex;
         }
@@ -679,23 +634,18 @@
         }
         
         button .pespectives {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 8rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(55, 235, 10);
-            transition-duration: 1s;
         }
     }
 
     /*introspection*/
-    @media (min-width:675px) {
+    @media (min-width:850px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .n {
+        .l {
             padding: 0;
             display: flex;
         }
@@ -731,17 +681,12 @@
             }
         
         button .introspection {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 9rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(10, 235, 96);
-            transition-duration: 1s;
         }
     }
 
    /*necessity*/
-    @media (min-width:700px) {
+    @media (min-width:875px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
@@ -783,23 +728,18 @@
             }
         
         button .necessity {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 11rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(10, 235, 231);
-            transition-duration: 1s;
         }
     }
 
-    /*inclusivity*/
-    @media (min-width:725px) {
+    /*perspectives*/
+    @media (min-width:900px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .o {
+        .n {
             padding: 0;
             display: flex;
         }
@@ -835,23 +775,18 @@
             }
         
         button .inclusivity {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 11rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(10, 141, 235);
-            transition-duration: 1s;
         }
     }
 
-    /*refinement*/
-    @media (min-width:750px) {
+    /*intention*/
+    @media (min-width:925px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .q {
+        .o {
             padding: 0;
             display: flex;
         }
@@ -887,19 +822,14 @@
             }
         
         button .refinement {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 11rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(18, 10, 235);
-            transition-duration: 1s;
         }
     }
 
-    /*silliness*/
-    @media (min-width:775px) {
+    /*awareness*/
+    @media (min-width:950px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .k, .l, .m, .n, .o, .j, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
@@ -939,23 +869,18 @@
             }
         
         button .silliness {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(119, 10, 235);
-            transition-duration: 1s;
         }
     }
 
-/*narration*/
-    @media (min-width:800px) {
+/*timing*/
+    @media (min-width:975px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .s, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .r {
+        .q {
             padding: 0;
             display: flex;
         }
@@ -991,23 +916,18 @@
             }
         
         button .narration {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(209, 10, 235);
-            transition-duration: 1s;
         }
     }
 
-    /*attention*/
-    @media (min-width:825px) {
+    /*purpose*/
+    @media (min-width:1000px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .t, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .s {
+        .r {
             padding: 0;
             display: flex;
         }
@@ -1043,23 +963,18 @@
             }
         
         button .attention {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(235, 10, 186);
-            transition-duration: 1s;
         }
     }
 
-    /*ambiguity*/
-    @media (min-width:850px) {
+    /*boundaries*/
+    @media (min-width:1025px) {
 
-        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
+        .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
     
-        .t {
+        .s {
             padding: 0;
             display: flex;
         }
@@ -1095,17 +1010,12 @@
             }
         
         button .ambiguity {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(235, 10, 89);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*provision*/
-    @media (min-width:875px) {
+    /*discussion*/
+    @media (min-width:1050px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .u, .v, .w, .x, .y, .z {
             display:none;
@@ -1147,17 +1057,12 @@
             }
         
         button .provision {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(235, 10, 10);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*responding*/
-    @media (min-width:900px) {
+    /*deliverables*/
+    @media (min-width:1075px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .v, .w, .x, .y, .z {
             display:none;
@@ -1199,17 +1104,12 @@
             }
         
         button .responding {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 14rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(235, 66, 10);
-            transition-duration: 1s;
             }
     }
 
-    /*laughing*/
-    @media (min-width:925px) {
+    /*context*/
+    @media (min-width:1100px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .w, .x, .y, .z {
             display:none;
@@ -1251,17 +1151,12 @@
             }
         
         button .laughing {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 15rem;
-            line-height: 0rem;
             display: inline;
-            color: rgb(235, 164, 10);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    /*building a repository*/
-    @media (min-width:950px) {
+    /*deliverables*/
+    @media (min-width:1125px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .x, .y, .z {
             display:none;
@@ -1303,17 +1198,12 @@
             }
         
         button .building {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 11rem;
-            line-height: 2rem;
             display: inline;
-            color: rgb(171, 235, 10);
-            transition-duration: 1s;
             }
     }
 
-    /*reinventing*/
-    @media (min-width:975px) {
+    /*context*/
+    @media (min-width:1150px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .y, .z {
             display:none;
@@ -1355,17 +1245,12 @@
             }
         
         button .reinventing {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 13rem;
-            line-height: 2rem;
             display: inline;
-            color: rgb(21, 235, 10);
-            transition-duration: 1s;
             }
     }
 
-    /*evolution*/
-    @media (min-width:1000px) {
+    /*embracing*/
+    @media (min-width:1175px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .z {
             display:none;
@@ -1407,17 +1292,12 @@
             }
         
         button .evolution {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 17rem;
-            line-height: 2rem;
             display: inline;
-            color: rgb(10, 235, 186);
-            transition-duration: 1s;
-            }
+        }
     }
     
-    /*freedom*/
-    @media (min-width:1025px) {
+    /*failure*/
+    @media (min-width:1200px) {
 
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y {
             display:none;
@@ -1459,16 +1339,12 @@
             }
         
         button .freedom {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 22rem;
-            line-height: 2rem;
             display: inline;
-            color: rgb(10, 96, 235);
-            transition-duration: 1s;
-            }
+        }
     }
 
-    @media (min-width:1050px) {
+    /*intro*/
+    @media (min-width:1225px) {
         .a, .b , .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
             display:none;
         }
@@ -1506,21 +1382,42 @@
             }
 
         button .intro {
-            font-family: 'Pinyon Script',cursive;
-            font-size: 3rem;
-            line-height: 0.5rem;
-            display: inline;
-            color: rgb(10, 96, 235);
-            transition-duration: 1s;
-            padding: 3rem;
-            margin: auto;
+            font-family: "orpheuspro", serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 5rem;
+        }
 
+        .howto {
+            font-family: "orpheuspro", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1rem;
+            padding-top: 3rem;
+        }
+
+        div {
+            max-width: 60%;
+            max-height: 0;
+            margin: auto;
+        }
+
+        a {
+            color: rgb(20, 20, 20);
+        }
+
+        html {
+            background-color: rgb(254, 241, 193);
         }
     }
 
 
 
-    /* hidden */
+    /* hidden hover */
     /* button:hover .author,
         button .failure, button:hover .failure,
         button .embracing, button:hover .embracing, 
